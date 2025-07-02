@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  republic:
+    container_name: republic_bot
+    build: .
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./db_data:/app/db_data       # Папка для хранения базы
+    command: python main.py
+
+  backup:
+    image: busybox
+    volumes:
+      - ./db_data:/backup
+    command: tail -f /dev/null  # Пустой сервис для удобного доступа к файлам

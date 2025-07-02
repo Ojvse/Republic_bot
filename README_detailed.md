@@ -47,14 +47,14 @@ ADMIN_IDS=[123456789,987654321]
 
 ### ✅ Windows (PowerShell)
 
-1️⃣ Перейдите в папку проекта, например:
+1️⃣ Перейдите в папку проекта:
 ```powershell
-cd C:\Users\User\PycharmProjects\Republic_bot
+cd C:\Users\Zver\PycharmProjects\Republic_bot
 ```
 
 2️⃣ Создайте venv:
 ```powershell
-C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe -m venv venv
+C:\Users\Zver\AppData\Local\Programs\Python\Python313\python.exe -m venv venv
 ```
 
 3️⃣ Активируйте:

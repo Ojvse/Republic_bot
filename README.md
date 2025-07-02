@@ -1,4 +1,4 @@
-[README_Republic.md](https://github.com/user-attachments/files/21024995/README_Republic.md)[Uploading READ
+[README_Republic.md](https://github.com/user-attachments/files/21024995/README_Republic.md)
 # ⚛ Republic Bot
 
 Телеграм-бот для управления участниками фракции **Республика** в игре *Wasteland Wars*.  
